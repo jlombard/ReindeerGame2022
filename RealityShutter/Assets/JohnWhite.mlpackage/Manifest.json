@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "0B9FE45C-02C9-4A51-B39D-8E6713C09134": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "John White take 3 2 copy Iteration 2385.mlmodel",
+            "path": "com.apple.CoreML/John White take 3 2 copy Iteration 2385.mlmodel"
+        },
+        "45B8F34A-DB31-48DA-8B2F-C3B23BAC8AC2": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "4B8DB90B-ABAA-4371-80C6-A476179D99D9": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        }
+    },
+    "rootModelIdentifier": "0B9FE45C-02C9-4A51-B39D-8E6713C09134"
+}

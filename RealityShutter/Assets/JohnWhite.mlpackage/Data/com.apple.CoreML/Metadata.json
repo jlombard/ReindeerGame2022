@@ -1,0 +1,8 @@
+{
+  "MLModelVersionStringKey" : "1",
+  "MLModelDescriptionKey" : "A model trained using CreateML for use with CoreML.",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.version" : "10.16.0"
+  },
+  "MLModelAuthorKey" : "Joe Lombardo"
+}

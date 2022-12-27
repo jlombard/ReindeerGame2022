@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F001B682847CE97002AB60A /* MPVolumeViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F001B672847CE97002AB60A /* MPVolumeViewExtension.swift */; };
+		8F2CC28428BD5BFD00F4197D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2CC28328BD5BFD00F4197D /* UIImageExtension.swift */; };
+		8F2CC28728BD5E6000F4197D /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2CC28628BD5E6000F4197D /* Volume.swift */; };
+		8F39C980295327690041E1F2 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39C97F295327690041E1F2 /* Character.swift */; };
+		8F39C982295328240041E1F2 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39C981295328240041E1F2 /* CharactersViewController.swift */; };
+		8F39C984295329580041E1F2 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39C983295329580041E1F2 /* CharacterCollectionViewCell.swift */; };
+		8F39C98A2955F4610041E1F2 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39C9892955F4610041E1F2 /* UIViewExtension.swift */; };
+		8F524C602957C7BF00AD684B /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F524C5F2957C7BF00AD684B /* StoryViewController.swift */; };
+		8F6F26C428E074F700D04289 /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F26C328E074F700D04289 /* CIImageExtension.swift */; };
+		8F7FDE472848F55A00D6BC53 /* ShutterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7FDE462848F55A00D6BC53 /* ShutterView.swift */; };
+		8F9FBF4328D34322005C9199 /* ARViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FBF4228D34322005C9199 /* ARViewExtension.swift */; };
+		8FB2C05628B6499D00961A63 /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2C05528B6499D00961A63 /* ImageProcessing.swift */; };
+		8FB7E268293A183800C97C0E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7E267293A183800C97C0E /* LocationManager.swift */; };
+		8FB7E26A293E051B00C97C0E /* PhotoLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7E269293E051B00C97C0E /* PhotoLibraryManager.swift */; };
+		8FB7E26E293ED35D00C97C0E /* JohnWhite.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7E26D293ED35D00C97C0E /* JohnWhite.mlpackage */; };
+		8FB9A652292FAC6300285BCD /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9A651292FAC6300285BCD /* PreviewViewController.swift */; };
+		8FC7E4C728479FB600AFE38D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7E4C628479FB600AFE38D /* AppDelegate.swift */; };
+		8FC7E4C928479FB600AFE38D /* ARCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7E4C828479FB600AFE38D /* ARCameraViewController.swift */; };
+		8FC7E4CE28479FB600AFE38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC7E4CC28479FB600AFE38D /* Main.storyboard */; };
+		8FC7E4D028479FB700AFE38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC7E4CF28479FB700AFE38D /* Assets.xcassets */; };
+		8FC7E4D328479FB700AFE38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC7E4D128479FB700AFE38D /* LaunchScreen.storyboard */; };
+		8FC7E4DD28479FB700AFE38D /* RealityShutterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7E4DC28479FB700AFE38D /* RealityShutterTests.swift */; };
+		8FC7E4E728479FB700AFE38D /* RealityShutterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7E4E628479FB700AFE38D /* RealityShutterUITests.swift */; };
+		8FC7E4E928479FB700AFE38D /* RealityShutterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7E4E828479FB700AFE38D /* RealityShutterUITestsLaunchTests.swift */; };
+		ACCEFEA4295AE4FF00154912 /* Reindeer Game v2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = ACCEFEA3295AE4FF00154912 /* Reindeer Game v2.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FC7E4D928479FB700AFE38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC7E4BB28479FB600AFE38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC7E4C228479FB600AFE38D;
+			remoteInfo = RealityShutter;
+		};
+		8FC7E4E328479FB700AFE38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC7E4BB28479FB600AFE38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC7E4C228479FB600AFE38D;
+			remoteInfo = RealityShutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F001B672847CE97002AB60A /* MPVolumeViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVolumeViewExtension.swift; sourceTree = "<group>"; };
+		8F2CC28328BD5BFD00F4197D /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		8F2CC28628BD5E6000F4197D /* Volume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		8F39C97F295327690041E1F2 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		8F39C981295328240041E1F2 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		8F39C983295329580041E1F2 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F39C9892955F4610041E1F2 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		8F524C5F2957C7BF00AD684B /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		8F6F26C328E074F700D04289 /* CIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImageExtension.swift; sourceTree = "<group>"; };
+		8F7FDE462848F55A00D6BC53 /* ShutterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterView.swift; sourceTree = "<group>"; };
+		8F9FBF4228D34322005C9199 /* ARViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewExtension.swift; sourceTree = "<group>"; };
+		8FB2C05528B6499D00961A63 /* ImageProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessing.swift; sourceTree = "<group>"; };
+		8FB7E267293A183800C97C0E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8FB7E269293E051B00C97C0E /* PhotoLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryManager.swift; sourceTree = "<group>"; };
+		8FB7E26D293ED35D00C97C0E /* JohnWhite.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = JohnWhite.mlpackage; sourceTree = "<group>"; };
+		8FB9A651292FAC6300285BCD /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		8FC7E4C328479FB600AFE38D /* RealityShutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealityShutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC7E4C628479FB600AFE38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FC7E4C828479FB600AFE38D /* ARCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraViewController.swift; sourceTree = "<group>"; };
+		8FC7E4CD28479FB600AFE38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FC7E4CF28479FB700AFE38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FC7E4D228479FB700AFE38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FC7E4D828479FB700AFE38D /* RealityShutterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealityShutterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC7E4DC28479FB700AFE38D /* RealityShutterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityShutterTests.swift; sourceTree = "<group>"; };
+		8FC7E4E228479FB700AFE38D /* RealityShutterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealityShutterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC7E4E628479FB700AFE38D /* RealityShutterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityShutterUITests.swift; sourceTree = "<group>"; };
+		8FC7E4E828479FB700AFE38D /* RealityShutterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityShutterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACCEFEA3295AE4FF00154912 /* Reindeer Game v2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "Reindeer Game v2.rcproject"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC7E4C028479FB600AFE38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC7E4D528479FB700AFE38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC7E4DF28479FB700AFE38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F2CC28528BD5C3800F4197D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F2CC28328BD5BFD00F4197D /* UIImageExtension.swift */,
+				8F6F26C328E074F700D04289 /* CIImageExtension.swift */,
+				8F9FBF4228D34322005C9199 /* ARViewExtension.swift */,
+				8F001B672847CE97002AB60A /* MPVolumeViewExtension.swift */,
+				8F39C9892955F4610041E1F2 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8F4E4EFE28FDB42200BAF88A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FC7E4CC28479FB600AFE38D /* Main.storyboard */,
+				8F7FDE462848F55A00D6BC53 /* ShutterView.swift */,
+				8F39C983295329580041E1F2 /* CharacterCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FB2C05828B64A3F00961A63 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8FB7E26D293ED35D00C97C0E /* JohnWhite.mlpackage */,
+				ACCEFEA3295AE4FF00154912 /* Reindeer Game v2.rcproject */,
+				8FC7E4CF28479FB700AFE38D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8FB2C05928B64A6000961A63 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8FC7E4C628479FB600AFE38D /* AppDelegate.swift */,
+				8FC7E4D128479FB700AFE38D /* LaunchScreen.storyboard */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8FB9A6532935226400285BCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FB7E269293E051B00C97C0E /* PhotoLibraryManager.swift */,
+				8FB7E267293A183800C97C0E /* LocationManager.swift */,
+				8FB2C05528B6499D00961A63 /* ImageProcessing.swift */,
+				8F39C97F295327690041E1F2 /* Character.swift */,
+				8F2CC28628BD5E6000F4197D /* Volume.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FB9A6542935227E00285BCD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F524C5F2957C7BF00AD684B /* StoryViewController.swift */,
+				8F39C981295328240041E1F2 /* CharactersViewController.swift */,
+				8FC7E4C828479FB600AFE38D /* ARCameraViewController.swift */,
+				8FB9A651292FAC6300285BCD /* PreviewViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8FC7E4BA28479FB600AFE38D = {
+			isa = PBXGroup;
+			children = (
+				8FC7E4C528479FB600AFE38D /* RealityShutter */,
+				8FC7E4DB28479FB700AFE38D /* RealityShutterTests */,
+				8FC7E4E528479FB700AFE38D /* RealityShutterUITests */,
+				8FC7E4C428479FB600AFE38D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC7E4C428479FB600AFE38D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC7E4C328479FB600AFE38D /* RealityShutter.app */,
+				8FC7E4D828479FB700AFE38D /* RealityShutterTests.xctest */,
+				8FC7E4E228479FB700AFE38D /* RealityShutterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC7E4C528479FB600AFE38D /* RealityShutter */ = {
+			isa = PBXGroup;
+			children = (
+				8FB9A6532935226400285BCD /* Models */,
+				8F4E4EFE28FDB42200BAF88A /* Views */,
+				8FB9A6542935227E00285BCD /* Controllers */,
+				8F2CC28528BD5C3800F4197D /* Extensions */,
+				8FB2C05828B64A3F00961A63 /* Assets */,
+				8FB2C05928B64A6000961A63 /* Utilities */,
+			);
+			path = RealityShutter;
+			sourceTree = "<group>";
+		};
+		8FC7E4DB28479FB700AFE38D /* RealityShutterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC7E4DC28479FB700AFE38D /* RealityShutterTests.swift */,
+			);
+			path = RealityShutterTests;
+			sourceTree = "<group>";
+		};
+		8FC7E4E528479FB700AFE38D /* RealityShutterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC7E4E628479FB700AFE38D /* RealityShutterUITests.swift */,
+				8FC7E4E828479FB700AFE38D /* RealityShutterUITestsLaunchTests.swift */,
+			);
+			path = RealityShutterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FC7E4C228479FB600AFE38D /* RealityShutter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC7E4EC28479FB700AFE38D /* Build configuration list for PBXNativeTarget "RealityShutter" */;
+			buildPhases = (
+				8FC7E4BF28479FB600AFE38D /* Sources */,
+				8FC7E4C028479FB600AFE38D /* Frameworks */,
+				8FC7E4C128479FB600AFE38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealityShutter;
+			productName = RealityShutter;
+			productReference = 8FC7E4C328479FB600AFE38D /* RealityShutter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FC7E4D728479FB700AFE38D /* RealityShutterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC7E4EF28479FB700AFE38D /* Build configuration list for PBXNativeTarget "RealityShutterTests" */;
+			buildPhases = (
+				8FC7E4D428479FB700AFE38D /* Sources */,
+				8FC7E4D528479FB700AFE38D /* Frameworks */,
+				8FC7E4D628479FB700AFE38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC7E4DA28479FB700AFE38D /* PBXTargetDependency */,
+			);
+			name = RealityShutterTests;
+			productName = RealityShutterTests;
+			productReference = 8FC7E4D828479FB700AFE38D /* RealityShutterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FC7E4E128479FB700AFE38D /* RealityShutterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC7E4F228479FB700AFE38D /* Build configuration list for PBXNativeTarget "RealityShutterUITests" */;
+			buildPhases = (
+				8FC7E4DE28479FB700AFE38D /* Sources */,
+				8FC7E4DF28479FB700AFE38D /* Frameworks */,
+				8FC7E4E028479FB700AFE38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC7E4E428479FB700AFE38D /* PBXTargetDependency */,
+			);
+			name = RealityShutterUITests;
+			productName = RealityShutterUITests;
+			productReference = 8FC7E4E228479FB700AFE38D /* RealityShutterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC7E4BB28479FB600AFE38D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8FC7E4C228479FB600AFE38D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8FC7E4D728479FB700AFE38D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8FC7E4C228479FB600AFE38D;
+					};
+					8FC7E4E128479FB700AFE38D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8FC7E4C228479FB600AFE38D;
+					};
+				};
+			};
+			buildConfigurationList = 8FC7E4BE28479FB600AFE38D /* Build configuration list for PBXProject "RealityShutter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FC7E4BA28479FB600AFE38D;
+			productRefGroup = 8FC7E4C428479FB600AFE38D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC7E4C228479FB600AFE38D /* RealityShutter */,
+				8FC7E4D728479FB700AFE38D /* RealityShutterTests */,
+				8FC7E4E128479FB700AFE38D /* RealityShutterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC7E4C128479FB600AFE38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC7E4D328479FB700AFE38D /* LaunchScreen.storyboard in Resources */,
+				8FC7E4D028479FB700AFE38D /* Assets.xcassets in Resources */,
+				8FC7E4CE28479FB600AFE38D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC7E4D628479FB700AFE38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC7E4E028479FB700AFE38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC7E4BF28479FB600AFE38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F524C602957C7BF00AD684B /* StoryViewController.swift in Sources */,
+				8FB7E268293A183800C97C0E /* LocationManager.swift in Sources */,
+				8F6F26C428E074F700D04289 /* CIImageExtension.swift in Sources */,
+				8F7FDE472848F55A00D6BC53 /* ShutterView.swift in Sources */,
+				8FB7E26E293ED35D00C97C0E /* JohnWhite.mlpackage in Sources */,
+				8FC7E4C928479FB600AFE38D /* ARCameraViewController.swift in Sources */,
+				8F39C98A2955F4610041E1F2 /* UIViewExtension.swift in Sources */,
+				8F39C984295329580041E1F2 /* CharacterCollectionViewCell.swift in Sources */,
+				8F9FBF4328D34322005C9199 /* ARViewExtension.swift in Sources */,
+				8FC7E4C728479FB600AFE38D /* AppDelegate.swift in Sources */,
+				8F39C982295328240041E1F2 /* CharactersViewController.swift in Sources */,
+				8F001B682847CE97002AB60A /* MPVolumeViewExtension.swift in Sources */,
+				ACCEFEA4295AE4FF00154912 /* Reindeer Game v2.rcproject in Sources */,
+				8F2CC28728BD5E6000F4197D /* Volume.swift in Sources */,
+				8FB7E26A293E051B00C97C0E /* PhotoLibraryManager.swift in Sources */,
+				8FB2C05628B6499D00961A63 /* ImageProcessing.swift in Sources */,
+				8F39C980295327690041E1F2 /* Character.swift in Sources */,
+				8F2CC28428BD5BFD00F4197D /* UIImageExtension.swift in Sources */,
+				8FB9A652292FAC6300285BCD /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC7E4D428479FB700AFE38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC7E4DD28479FB700AFE38D /* RealityShutterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC7E4DE28479FB700AFE38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC7E4E728479FB700AFE38D /* RealityShutterUITests.swift in Sources */,
+				8FC7E4E928479FB700AFE38D /* RealityShutterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FC7E4DA28479FB700AFE38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC7E4C228479FB600AFE38D /* RealityShutter */;
+			targetProxy = 8FC7E4D928479FB700AFE38D /* PBXContainerItemProxy */;
+		};
+		8FC7E4E428479FB700AFE38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC7E4C228479FB600AFE38D /* RealityShutter */;
+			targetProxy = 8FC7E4E328479FB700AFE38D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FC7E4CC28479FB600AFE38D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC7E4CD28479FB600AFE38D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FC7E4D128479FB700AFE38D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC7E4D228479FB700AFE38D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FC7E4EA28479FB700AFE38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FC7E4EB28479FB700AFE38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FC7E4ED28479FB700AFE38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 597RDXUTMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Reindeer Game";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This is used to add location metadata to saved images. ";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to save snapshots into the Photos library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.RealityShutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FC7E4EE28479FB700AFE38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 597RDXUTMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Reindeer Game";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This is used to add location metadata to saved images. ";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to save snapshots into the Photos library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.RealityShutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FC7E4F028479FB700AFE38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 597RDXUTMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.RealityShutterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealityShutter.app/RealityShutter";
+			};
+			name = Debug;
+		};
+		8FC7E4F128479FB700AFE38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 597RDXUTMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.RealityShutterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealityShutter.app/RealityShutter";
+			};
+			name = Release;
+		};
+		8FC7E4F328479FB700AFE38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 597RDXUTMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.RealityShutterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealityShutter;
+			};
+			name = Debug;
+		};
+		8FC7E4F428479FB700AFE38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 597RDXUTMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.RealityShutterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealityShutter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC7E4BE28479FB600AFE38D /* Build configuration list for PBXProject "RealityShutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC7E4EA28479FB700AFE38D /* Debug */,
+				8FC7E4EB28479FB700AFE38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC7E4EC28479FB700AFE38D /* Build configuration list for PBXNativeTarget "RealityShutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC7E4ED28479FB700AFE38D /* Debug */,
+				8FC7E4EE28479FB700AFE38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC7E4EF28479FB700AFE38D /* Build configuration list for PBXNativeTarget "RealityShutterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC7E4F028479FB700AFE38D /* Debug */,
+				8FC7E4F128479FB700AFE38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC7E4F228479FB700AFE38D /* Build configuration list for PBXNativeTarget "RealityShutterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC7E4F328479FB700AFE38D /* Debug */,
+				8FC7E4F428479FB700AFE38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FC7E4BB28479FB600AFE38D /* Project object */;
+}
